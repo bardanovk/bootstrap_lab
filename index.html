@@ -9,15 +9,41 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <div class="jumbotron col-md-6 col-xl-12">
             <h1>Hello, world!</h1>
             <p>This is our first sample example that will be more awesome in the next chapters!</p>
             <a class="btn btn-primary btn-lg" href="#" role="button"> Bootstrap by Example, Chapter 1</a>
         </div>
+        <div class="row">
+            <div class="container-fluid" id="header">
+                <div class="row">
+                    <div class="container-fluid col-sm-12 col-md-6 col-lg-6" id="a"></div>
+                    <div class="container-fluid col-sm-12 col-md-6 col-lg-6" id="m"></div>
+                </div>
+                <div class="row">
+                    <img class="container-fluid col-sm-8 col-md-8 col-lg-8 image-fluid" src="icecream.jpg" alt="">
+
+                    <div class="container-fluid col-sm-4 col-md-4 col-lg-4">
+                        <p>
+                            Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский набор слов, но это не совсем так. Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа
+                            Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur", и занялся его поисками в классической латинской литературе. В результате он нашёл неоспоримый первоисточник Lorem Ipsum в разделах
+                            1.10.32 и 1.10.33 книги "de Finibus Bonorum et Malorum" ("О пределах добра и зла"), написанной Цицероном в 45 году н.э. Этот трактат по теории этики был очень популярен в эпоху Возрождения.
+                        </p>
+                        <p> Первая строка Lorem Ipsum, "Lorem ipsum dolor sit amet..", происходит от одной из строк в разделе 1.10.32 Классический текст Lorem Ipsum, используемый с XVI века, приведён ниже. Также даны разделы 1.10.32 и 1.10.33 "de Finibus
+                            Bonorum et Malorum" Цицерона и их английский перевод, сделанный H. Rackham, 1914 год.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+        <a href="https://getbootstrap.com">Bootstrap</a>
     </div>
 </body>
 
